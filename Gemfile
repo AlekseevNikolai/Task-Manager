@@ -41,6 +41,7 @@ group :development, :test do
   gem 'rubocop'
   gem 'pry-byebug'
   gem 'pry-rails'
+  gem "net-http"
 end
 
 group :development do
