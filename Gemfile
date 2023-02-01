@@ -29,12 +29,18 @@ gem 'simple_form'
 gem 'state_machines'
 gem 'state_machines-activerecord'
 gem "slim-rails"
+gem 'kaminari'
+gem 'ransack'
+gem 'responders'
+gem 'active_model_serializers'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'factory_bot_rails'
   gem 'rubocop'
+  gem 'pry-byebug'
+  gem 'pry-rails'
 end
 
 group :development do
